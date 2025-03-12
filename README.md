@@ -19,7 +19,7 @@ If you use this work, please cite the appropriate paper(s) using the following r
      @Article {Forbes2025,
         author = {Forbes, M. and Robertson, W.S.P. and Zander, A.C. and Vidler, J. and Paulides, J.J.H},
         journal = {Applied Mathematical Modelling},
-        title = {A Generalised Maxwell Stress Tensor for Semi-Analytic Force and Torque Between Permanent Magnets, Coils, and Soft Iron},
+        title = {A Generalised {M}axwell Stress Tensor for Semi-Analytic Force and Torque Between Permanent Magnets, Coils, and Soft Iron},
         doi = {10.1016/j.apm.2025.116050},
         publisher = {Elsevier},
         pages = {116050},
