@@ -29,7 +29,7 @@ If you use this work, please cite the appropriate paper(s) using the following r
         author = {Forbes, M. and Robertson, W.S.P. and Zander, A.C. and Paulides, J.J.H},
         journal = {Advanced Physics Research},
         title = {The Magnetic Field from Cylindrical Arc Coils and Magnets: {A} Compendium with New Analytic Solutions for Radial Magnetisation and Azimuthal Current},
-        doi = {[10.1002/apxr.202300136](https://doi.org/10.1016/j.apm.2025.116050)},
+        doi = {10.1002/apxr.202300136},
         publisher = {Wiley},
         number = {7},
         pages = {2300136},
