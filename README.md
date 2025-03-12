@@ -3,7 +3,7 @@ This page features a [Mathematica notebook](https://github.com/AUMAG/mag-gmst-fo
 
 A summary for implementing this elemental modelling method for linear/rotary motors is given below, with a detailed outlined in future work (preprint to come) and past work ([10.1109/TMAG.2020.3010566](https://doi.org/10.1109/TMAG.2020.3010566)).
 
-
+<img style="background-color:white;" src=https://github.com/AUMAG/mag-gmst-force/blob/main/doc/elemental-model-process.png />
 
 1. For a known analytic solution, assign the coil and permanent magnet: geometry, location, and magnetisation/current. If there is no permeable matter, then skip to Step 6.
 1. Calculate the total magnetic flux density from all coils and permanent magnets with unity relative permeability across the regions with permeable matter (initially assumed to be a vacuum).
