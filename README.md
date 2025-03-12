@@ -9,7 +9,7 @@ A summary for implementing this elemental modelling method for linear/rotary mot
 1. Calculate the total magnetic flux density from all coils and permanent magnets with unity relative permeability across the regions with permeable matter (initially assumed to be a vacuum).
 1. Using the prior magnetic flux density and the B-H curve for the permeable material, assign an initial uniform vector magnetisation to each volume element.
 1. Calculate the total magnetic flux density from all new volume elements at all centroids defined in Step 2.
-1. Follow the same process of step 3, assigning new magnetisations. If convergence criteria are met, then proceed to Step 6.  Otherwise, repeat Step 4.
+1. Follow the same process of Step 3, assigning new magnetisations. If convergence criteria are met, then proceed to Step 6.  Otherwise, repeat Step 4.
 1. Form a closed-surface in the airgap around either the stator or rotor/mover volume. Mesh the surface and calculate the discretised magnetic field at each area centroid from all sources. Calculate the force and torque using GMST, with the local surface normal, area, radii, and field.
 
 ## Citations
