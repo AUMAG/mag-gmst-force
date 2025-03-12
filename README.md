@@ -20,7 +20,7 @@ If you use this work, please cite the appropriate paper(s) using the following r
         author = {Forbes, M. and Robertson, W.S.P. and Zander, A.C. and Vidler, J. and Paulides, J.J.H},
         journal = {Applied Mathematical Modelling},
         title = {A Generalised Maxwell Stress Tensor for Semi-Analytic Force and Torque Between Permanent Magnets, Coils, and Soft Iron},
-        doi = {10.1002/apxr.202300136},
+        doi = {10.1016/j.apm.2025.116050},
         publisher = {Elsevier},
         pages = {116050},
     }
