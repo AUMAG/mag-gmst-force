@@ -21,8 +21,10 @@ If you use this work, please cite the appropriate paper(s) using the following r
         journal = {Applied Mathematical Modelling},
         title = {A Generalised {M}axwell Stress Tensor for Semi-Analytic Force and Torque Between Permanent Magnets, Coils, and Soft Iron},
         doi = {10.1016/j.apm.2025.116050},
-        publisher = {Elsevier},
+        publisher = {Elsevier BV},
+        date = {2025},
         pages = {116050},
+        volume = {144},
     }
 
     @Article {Forbes2024,
@@ -31,6 +33,7 @@ If you use this work, please cite the appropriate paper(s) using the following r
         title = {The Magnetic Field from Cylindrical Arc Coils and Magnets: {A} Compendium with New Analytic Solutions for Radial Magnetisation and Azimuthal Current},
         doi = {10.1002/apxr.202300136},
         publisher = {Wiley},
+        date = {2024},
         number = {7},
         pages = {2300136},
         volume = {3},
