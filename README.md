@@ -1,7 +1,7 @@
 # Force and torque calculations between cylindrical arc magnets and coils
 This page features a [Mathematica notebook](https://github.com/AUMAG/mag-gmst-force/blob/8b237dd854b60771678d33ff9b432291a644afba/Force%20and%20Torque%20Between%20Cylindrical%20Arc%20Coils%20and%20Magnets.nb) ([PDF version](https://github.com/AUMAG/mag-gmst-force/blob/8b237dd854b60771678d33ff9b432291a644afba/Force%20and%20Torque%20Between%20Cylindrical%20Arc%20Coils%20and%20Magnets.pdf)) that is supplementary material for the research article ‘A Generalised Maxwell Stress Tensor for Semi-Analytic Force and Torque Between Permanent Magnets, Coils, and Soft Iron’ ([10.1016/j.apm.2025.116050](https://doi.org/10.1016/j.apm.2025.116050), [preprint](https://github.com/AUMAG/mag-gmst-force/blob/main/mag-gmst-force-Forbes-manuscript-2025.pdf)). The notebook contains an example case study implementing the Generalised and Classical Maxwell Stress Tensors (GMST, MST) from the article, and compares the results to a Finite Element Analysis result (from ANSYS Maxwell 3D). Magnetic field results can be generated using [prior work](https://github.com/AUMAG/mag-cyl-field), with a package [MagCylField](https://github.com/AUMAG/mag-gmst-force/blob/8b237dd854b60771678d33ff9b432291a644afba/MagCylField.wl) containing all analytic solutions and an [example Mathematica document](https://github.com/AUMAG/mag-gmst-force/blob/8b237dd854b60771678d33ff9b432291a644afba/MagCylField-package-test/MagCylField%20example.nb) for creating field plots.
 
-A summary for implementing this elemental modelling method for linear/rotary motors is given below, with a detailed outlined in future work (preprint to come) and past work ([10.1109/TMAG.2020.3010566](https://doi.org/10.1109/TMAG.2020.3010566)).
+A summary for implementing this elemental modelling method for linear/rotary motors is given below, with a detailed outline in future work ([10.1016/j.jmmm.2025.173416](https://doi.org/10.1016/j.jmmm.2025.173416), [preprint](https://github.com/AUMAG/mag-gmst-force/blob/main/elemental-modelling-method-Forbes-manuscript-2025.pdf)) and past work ([10.1109/TMAG.2020.3010566](https://doi.org/10.1109/TMAG.2020.3010566)).
 
 <img style="background-color:white;" src=https://github.com/AUMAG/mag-gmst-force/blob/main/doc/elemental-model-process.png />
 
@@ -26,7 +26,7 @@ If you use this work, please cite the appropriate paper(s) using the following r
         pages = {116050},
         volume = {144},
     }
-
+    
     @Article {Forbes2024,
         author = {Forbes, M. and Robertson, W.S.P. and Zander, A.C. and Paulides, J.J.H},
         journal = {Advanced Physics Research},
@@ -37,4 +37,14 @@ If you use this work, please cite the appropriate paper(s) using the following r
         number = {7},
         pages = {2300136},
         volume = {3},
+    }
+
+     @Article {Forbes2025,
+        author = {Forbes, M. and Robertson, W.S.P. and Zander, A.C. and Paulides, J.J.H},
+        journal = {Journal of Magnetism and Magnetic Materials},
+        title = {An elemental modelling method for linear motor parametric studies using boundary-free analytic magnetic field solutions: Including 3D geometry, permeability, and end effects},
+        doi = {10.1016/j.jmmm.2025.173416},
+        publisher = {Elsevier BV},
+        date = {2025},
+        pages = {173416},
     }
